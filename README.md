@@ -7,7 +7,7 @@ Este proyecto visualiza la evolución histórica de las ventas trimestrales de e
 ## 📁 Dataset
 
 - **Fuente**: U.S. Census Bureau – Kaggle  
-- **Archivo utilizado**: `ec_sales.csv`  
+- [**Archivo utilizado**: `ec_sales.csv`](https://www.kaggle.com/datasets/census/e-commerce-retail-sales-series-data-collection?resource=download)  
 - **Campos clave**:
   - `date`: Fecha del trimestre
   - `value`: Monto de ventas en millones USD
