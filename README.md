@@ -19,7 +19,6 @@ Contiene datos simulados de transacciones realizadas en 2019.
 - **Pandas** – Limpieza y análisis de datos  
 - **Matplotlib & Seaborn** – Visualización de datos  
 - **Jupyter Notebook** – Análisis interactivo  
-- *(Opcional)* Power BI o Excel para dashboards adicionales
 
 ---
 
