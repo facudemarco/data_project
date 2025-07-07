@@ -1,60 +1,38 @@
-# 📊 E-commerce Sales Analysis
+# 🛍️ U.S. E-commerce Quarterly Sales
 
-Este proyecto realiza un análisis exploratorio de datos (EDA) sobre un conjunto de ventas de una tienda de comercio electrónico. El objetivo es identificar patrones de compra, productos más vendidos, horarios de alta demanda y ciudades con mayores ingresos.
+Este proyecto visualiza la evolución histórica de las ventas trimestrales de e-commerce en Estados Unidos, utilizando una serie de tiempo proporcionada por el U.S. Census Bureau.
 
 ---
 
 ## 📁 Dataset
 
-El conjunto de datos utilizado fue descargado desde Kaggle:  
-[E-commerce Sales Data – by Mohamed Hany](https://www.kaggle.com/datasets/mohamedhanyyy/ecommerce-sales-data)
-
-Contiene datos simulados de transacciones realizadas en 2019.
-
----
-
-## 🛠️ Herramientas y Tecnologías
-
-- **Python 3**
-- **Pandas** – Limpieza y análisis de datos  
-- **Matplotlib & Seaborn** – Visualización de datos  
-- **Jupyter Notebook** – Análisis interactivo  
+- **Fuente**: U.S. Census Bureau – Kaggle  
+- **Archivo utilizado**: `ec_sales.csv`  
+- **Campos clave**:
+  - `date`: Fecha del trimestre
+  - `value`: Monto de ventas en millones USD
 
 ---
 
-## 🔍 Análisis Realizados
+## 📈 Qué se analiza
 
-- Limpieza de datos nulos y formateo de fechas
-- Extracción de columnas útiles (mes, hora, ciudad)
-- Agrupaciones por producto, ciudad y horario
-- Visualización de:
-  - Top 10 productos más vendidos
-  - Ventas totales por ciudad
-  - Ventas por hora del día
+- Evolución de ventas online desde 1999 hasta 2019
+- Impacto del tiempo sobre el crecimiento del canal digital
+- Visualización clara del crecimiento acelerado de la industria
 
 ---
 
-## 📈 Ejemplos de Insights Obtenidos
+## 🧠 Tecnologías utilizadas
 
-- Las ciudades con mayor volumen de ventas fueron San Francisco y Los Ángeles.
-- El producto más vendido fue **AAA Batteries (4-pack)**.
-- Las horas pico de compras se concentran entre las 11 AM y 7 PM.
-
----
-
-## 🧠 Objetivo del Proyecto
-
-Aplicar conocimientos básicos de análisis de datos para obtener conclusiones de negocio a partir de datos brutos. Este proyecto me permitió practicar habilidades en:
-
-- Análisis exploratorio con Pandas
-- Visualización efectiva de datos
-- Interpretación de insights clave
+- Python
+- Pandas
+- Matplotlib
 
 ---
 
-## 🚀 Cómo correr el proyecto
+## 🚀 Cómo ejecutar
 
-1. Clonar este repositorio  
-2. Asegurarse de tener Python y las librerías necesarias:
+1. Cloná este repo y agregá el archivo CSV correspondiente  
+2. Asegurate de tener instaladas las librerías necesarias:
    ```bash
-   pip install pandas matplotlib seaborn jupyter
+   pip install pandas matplotlib
